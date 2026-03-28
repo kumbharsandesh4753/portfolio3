@@ -1,0 +1,55 @@
+css
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navbar */
+nav {
+    background: #111;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ff4b2b;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+}
+
+/* Boxes */
+.box {
+    display: inline-block;
+    background: #ff4b2b;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #111;
+}
